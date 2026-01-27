@@ -1,0 +1,52 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografía y layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: #f9f9f9;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+    margin-top: 2rem;
+}
+
+#ubicacion {
+    margin-top: 2rem;
+}
+
+#ubicacion iframe {
+    border-radius: 8px;
+}
