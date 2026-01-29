@@ -52,7 +52,7 @@ footer {
 }
 
 .banner {
-    height: 250px;
+    height: 35vh; /* 40vh adapta a pantalla */
     background-image: url("../assets/banner_facilitador_trabajo.png");
     background-position: center;
     background-size: cover;
